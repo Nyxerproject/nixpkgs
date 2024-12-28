@@ -36,7 +36,7 @@
   libXrandr,
   libbsd,
   libdrm,
-  libdwg,
+  # libdwg,
   libjpeg,
   libmd,
   libnotify,
@@ -153,7 +153,7 @@ stdenv.mkDerivation (finalAttrs: {
       hidapi
       libbsd
       libdrm
-      libdwg
+      # libdwg
       libGL
       libjpeg
       libmd
